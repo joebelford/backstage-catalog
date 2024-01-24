@@ -4,7 +4,6 @@ kind: Location
 metadata:
   name: templates
 spec:
-  type: file
   targets:
     - ./templates/pull-request.yaml
 ---
@@ -13,6 +12,5 @@ kind: Location
 metadata:
   name: components
 spec:
-  type: file
   targets:
     - ./components/backstage-catalog.yaml
