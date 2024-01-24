@@ -1,10 +1,16 @@
+---
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: backstage-catalog
-  annotations:
-    github.com/project-slug: joebelford/backstage-catalog
+  name: templates
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guest
+  type: file
+  target: ./templates/catalog-info.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: components
+spec:
+  type: file
+  target: ./components/catalog-info.yaml
