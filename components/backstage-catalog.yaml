@@ -2,10 +2,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-catalog
+  name: backstage-catalog-joe
   annotations:
     github.com/project-slug: joebelford/backstage-catalog
 spec:
   type: other
   lifecycle: experimental
-  owner: "user:guest"
+  owner: user:guest
